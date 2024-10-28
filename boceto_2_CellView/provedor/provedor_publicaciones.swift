@@ -95,7 +95,7 @@ class ProveedorDePublicaciones{
                         print(respuesta)
                     }
                 } catch {
-                    print("Error :)")
+                    print("Error: )")
                 }
         }.resume()
     }
