@@ -18,6 +18,8 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
     @IBOutlet weak var nombre_de_usuario: UILabel!
     @IBOutlet weak var cuerpo_de_publicacion: UILabel!
     
+
+    
     @IBOutlet weak var seccion_comentarios: UICollectionView!
     
     public var id_publicacion: Int?
@@ -99,17 +101,19 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource {
         
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             print("Aqui denberia hacer algo")
-            let celda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath)
+            let celda = collectionView.dequeueReusableCell(withReuseIdentifier: identificador_de_celda, for: indexPath) 
         
             // Configure the cell
-            celda.tintColor = UIColor.green
+          
       
             // print(self.lista_de_publicaciones)
             
+         
             return celda
         }
         
 
+    
     
     
     

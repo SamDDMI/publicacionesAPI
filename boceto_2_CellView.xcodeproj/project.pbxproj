@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB143CEF2CD29A21009F0069 /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB143CEE2CD29A21009F0069 /* CeldaComentario.swift */; };
 		FB6A99242CB4339E00DF6687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A99232CB4339E00DF6687 /* AppDelegate.swift */; };
 		FB6A99262CB4339E00DF6687 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A99252CB4339E00DF6687 /* SceneDelegate.swift */; };
 		FB6A992B2CB4339E00DF6687 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB6A992A2CB4339E00DF6687 /* Base */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB143CEE2CD29A21009F0069 /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
 		FB6A99202CB4339E00DF6687 /* boceto_2_CellView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boceto_2_CellView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6A99232CB4339E00DF6687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6A99252CB4339E00DF6687 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		FB6A99172CB4339E00DF6687 = {
 			isa = PBXGroup;
 			children = (
+				FB143CEE2CD29A21009F0069 /* CeldaComentario.swift */,
 				FB6A99222CB4339E00DF6687 /* boceto_2_CellView */,
 				FB6A99392CB4339E00DF6687 /* boceto_2_CellViewTests */,
 				FB6A99432CB4339E00DF6687 /* boceto_2_CellViewUITests */,
@@ -328,6 +331,7 @@
 				FBC28FD62CC014F2009EB2A3 /* ControladorPantallasDelPost.swift in Sources */,
 				FB6A99262CB4339E00DF6687 /* SceneDelegate.swift in Sources */,
 				FBC28FD12CC0141E009EB2A3 /* provedor_publicaciones.swift in Sources */,
+				FB143CEF2CD29A21009F0069 /* CeldaComentario.swift in Sources */,
 				FBC28FCE2CC01405009EB2A3 /* posts.swift in Sources */,
 				FB8B18F62CC6B3D100BDB109 /* Usuarios.swift in Sources */,
 				FB6A99562CB4376000DF6687 /* ControladorPantallaPrincipalDeColeccion.swift in Sources */,
