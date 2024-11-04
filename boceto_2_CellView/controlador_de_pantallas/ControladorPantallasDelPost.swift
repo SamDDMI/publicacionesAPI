@@ -19,6 +19,8 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource, 
     @IBOutlet weak var nombre_de_usuario: UILabel!
     @IBOutlet weak var cuerpo_de_publicacion: UILabel!
     
+    
+    
 
     
     @IBOutlet weak var seccion_comentarios: UICollectionView!
@@ -104,6 +106,8 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return lista_comentarios.count
     }
+  
+
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
       
@@ -112,7 +116,7 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource, 
       
         let comentario = lista_comentarios[indexPath.item]
         
-                celda.nombre.text = comentario.name
+        celda.nombre.text = comentario.name
         celda.contenido.text = comentario.body
         celda.correo.text = comentario.email
 
@@ -120,13 +124,6 @@ class ControladorPantallaDelPost: UIViewController, UICollectionViewDataSource, 
     }
 
        
-       // Método para establecer el tamaño de las celdas
-       func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-           // Aquí puedes ajustar el tamaño de la celda según sea necesario
-           let ancho = collectionView.frame.width - 20 // Margen horizontal
-           let alto: CGFloat = 100 // Altura fija o ajustada según el contenido
-           return CGSize(width: ancho, height: alto)
-       }
 
         
 

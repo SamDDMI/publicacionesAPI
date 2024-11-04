@@ -18,4 +18,5 @@ class VistaDeCelda: UICollectionViewCell  {
     
     @IBOutlet weak var contenido: UILabel!
     @IBOutlet weak var correo: UILabel!
+  
 }
